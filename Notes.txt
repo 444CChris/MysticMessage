@@ -1,3 +1,5 @@
+High level overviews of common methods of encryption 
+
 ##### Asymetric Encryption
 
     - Diffe-Hellman
@@ -19,9 +21,11 @@
           takes up less space because the basic arithmetic is less than that of traditional Diffe-Hellman with modulus. 
 
     - LWE 
-        - 
+        - Mathemtical problem that is hard to solve which makes it useful in cryptography
 
     -RSA
+        - public private key pair 
+        - two large random prime numbers used to create public and private keys 
         - Slowwww
         - mainly used to transport symmetric keys which are faster. 
 
@@ -29,5 +33,7 @@
 #### Symetric Encryption 
 
     - AES 
-
+        - Encrypts and decrypts data as bytes not bits
+        - Iterative encryption, encrypting many times over using generated keys.
     - ChaCha20
+        - Family of stream ciphers that are faster than AES
